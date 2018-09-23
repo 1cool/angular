@@ -33,7 +33,6 @@ import {HttpClientModule} from '@angular/common/http';
       InMemoryDataService, {dataEncapsulation: false}
     ),
   ],
-  providers: [HeroService],
   bootstrap: [AppComponent]
 })
 export class AppModule {
